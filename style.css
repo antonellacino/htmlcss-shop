@@ -6,7 +6,7 @@
 }
 
 .img{
-  width: 180px;
+  width: 170px;
   height: 250px;
   border: 1px solid;
   display: inline-block;
@@ -15,7 +15,7 @@
 
 .sezione{
   margin: auto;
-  width: 560px;
+  width: 530px;
   padding-top: 10px;
 }
 
@@ -28,6 +28,10 @@
   border: 1px solid;
 }
 
-.hidden{
-  display: none;
+div.cuoricino{
+  position: absolute;
+  right: 45%;
+  
 }
+
+#cuo:hover .cuore{ display: block;}
