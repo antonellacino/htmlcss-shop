@@ -1,0 +1,33 @@
+
+.container{
+  width: 650px;
+  border: 1px solid;
+  margin: auto;
+}
+
+.img{
+  width: 180px;
+  height: 250px;
+  border: 1px solid;
+  display: inline-block;
+  position: relative;
+}
+
+.sezione{
+  margin: auto;
+  width: 560px;
+  padding-top: 10px;
+}
+
+.sconto{
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  border: 1px solid;
+}
+
+.hidden{
+  display: none;
+}
