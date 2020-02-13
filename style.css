@@ -3,6 +3,8 @@
   width: 650px;
   border: 1px solid;
   margin: auto;
+  padding-bottom: 10px;
+
 }
 
 .img{
@@ -28,10 +30,22 @@
   border: 1px solid;
 }
 
+
 div.cuoricino{
   position: absolute;
   right: 45%;
-  
+  display: none;
 }
 
-#cuo:hover .cuore{ display: block;}
+div.img:hover div.cuoricino{
+  display: block;
+  color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
